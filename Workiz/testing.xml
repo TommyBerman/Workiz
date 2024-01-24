@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <listeners>
+        <listener class-name="TestListener" />
+    </listeners>
+
+    <test name="WorkizHomeAssignment" >
+        <classes>
+            <class name="HomeExam.WorkizHomeAssignment"/>
+        </classes>
+    </test>
+
+<!--    <test name="Regression1">-->
+<!--        <classes>-->
+<!--            <class name="MastersInSelenium.PerionTechInterview"/>-->
+<!--            <class name="StaticDropDown"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
